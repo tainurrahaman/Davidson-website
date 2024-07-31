@@ -167,6 +167,32 @@
     margin-bottom: 15px;
 }
 
+.connect {
+    display: flex;
+    background-image: url(../shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    padding: 30px 80px;
+    margin: 100px 200px;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.connect h4 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 20px 0px
+}
+
+.communicate {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 20px 0px
+}
+
 /* Responsive Design */
 
 /* Small Devices */
