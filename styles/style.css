@@ -94,6 +94,7 @@
 
 .intro-des1 {
     padding: 50px 40px 5px 40px;
+    text-align: justify;
 }
 
 .intro-des1 h1 {
@@ -136,7 +137,8 @@
         margin: 10px 0px;
     }
 
-    .intro-des p {
+    .intro-des p,
+    .intro-des1 p {
         font-size: 16px;
         text-align: justify;
     }
@@ -145,6 +147,30 @@
         border-radius: 7px;
         padding: 9px 25px;
         font-size: 14px;
+    }
+
+    .introduction2 {
+        gap: 1px;
+    }
+
+    .intro-image1 {
+        padding-left: 1px;
+        padding-top: 30px;
+        max-width: 40%;
+    }
+
+    .intro-image1 img {
+        max-width: 100%;
+    }
+
+    .intro-des1 {
+        max-width: 70%;
+        padding: 0px 10px 5px 10px;
+    }
+
+    .intro-des1 h1 {
+        font-size: 20px;
+        margin: 0px;
     }
 }
 
@@ -161,5 +187,17 @@
 
     .intro-des h1 {
         font-size: 60px;
+    }
+
+    .introduction2 {
+        gap: 5px;
+    }
+
+    .intro-image1 {
+        padding: 40px;
+    }
+
+    .intro-des1 {
+        padding: 50px 40px 5px 2px;
     }
 }
