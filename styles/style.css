@@ -103,6 +103,70 @@
     font-weight: bold;
 }
 
+.latest-project {
+    background-color: rgb(239, 239, 244);
+    padding: 50px 100px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.firstone {
+    color: #F46060;
+}
+
+.firsttwo {
+    color: #363958;
+}
+
+.project-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    padding: 10px 15px;
+    gap: 20px;
+}
+
+.gym,
+.music,
+.agency {
+    flex: 1;
+}
+
+.gym,
+.agency,
+.music {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.gym img,
+.agency img,
+.music img {
+    max-width: 90%;
+}
+
+.gym h4,
+.agency h4,
+.music h4 {
+    color: #363958;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.gym p,
+.agency p,
+.music p {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
 /* Responsive Design */
 
 /* Small Devices */
