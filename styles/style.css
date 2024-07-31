@@ -75,3 +75,29 @@
     max-width: 80%;
     height: auto;
 }
+
+
+.hide {
+    display: none;
+}
+
+/* Responsive Design */
+
+/* Small Devices */
+
+@media screen and (max-width:572px) {
+    .shared {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .navbar p {
+        text-align: center;
+        padding: 10px;
+    }
+}
