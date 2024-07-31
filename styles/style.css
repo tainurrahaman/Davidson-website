@@ -217,7 +217,7 @@
 }
 
 .social-container img {
-    width: 3%;
+    width: 5%;
     cursor: pointer;
 }
 
@@ -312,6 +312,24 @@
     .connect h4 {
         font-size: 25px;
     }
+
+    .social h3 {
+        margin: 40px 0px 0px 0px;
+        font-size: 18px;
+    }
+
+    .social h4 {
+        margin: 1px 0px;
+        font-size: 22px;
+    }
+
+    .social-container {
+        gap: 10px;
+    }
+
+    .social-container img {
+        width: 5%;
+    }
 }
 
 /* Medium Devices */
@@ -344,5 +362,19 @@
     .connect {
         margin: 50px 100px;
         justify-content: space-around;
+    }
+
+    .social h3 {
+        margin: 40px 0px 0px 0px;
+        font-size: 22px;
+    }
+
+    .social h4 {
+        margin: 1px 0px;
+        font-size: 26px;
+    }
+
+    .social-container img {
+        width: 5%;
     }
 }
