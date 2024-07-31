@@ -36,17 +36,21 @@
 
 }
 
-.introduction {
+.introduction,
+.introduction2 {
     display: flex;
     gap: 50px;
 }
 
 .intro-image,
-.intro-des {
+.intro-image1,
+.intro-des,
+.intro-des1 {
     flex: 1;
 }
 
-.intro-des {
+.intro-des,
+.intro-des1 {
     padding: 100px 40px 5px 40px;
     text-align: left;
     max-width: calc(50% - 80px);
@@ -66,12 +70,14 @@
     color: #FF8367;
 }
 
-.intro-des p {
+.intro-des p,
+.intro-des1 p {
     font-size: 18px;
     color: #3E3E3E;
 }
 
-.intro-image img {
+.intro-image img,
+.intro-image1 img {
     max-width: 80%;
     height: auto;
 }
@@ -79,6 +85,21 @@
 
 .hide {
     display: none;
+}
+
+
+.intro-image1 {
+    padding-left: 40px;
+}
+
+.intro-des1 {
+    padding: 50px 40px 5px 40px;
+}
+
+.intro-des1 h1 {
+    color: #363958;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 /* Responsive Design */
