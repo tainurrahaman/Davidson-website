@@ -193,6 +193,34 @@
     margin: 20px 0px
 }
 
+.social {
+    text-align: center;
+}
+
+.social h3 {
+    color: #696871;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.social h4 {
+    color: #363958;
+    font-size: 36px;
+    margin: 15px 0px;
+}
+
+.social-container {
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-container img {
+    width: 3%;
+    cursor: pointer;
+}
+
 /* Responsive Design */
 
 /* Small Devices */
