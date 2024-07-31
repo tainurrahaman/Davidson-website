@@ -236,6 +236,18 @@
         font-size: 20px;
         margin: 0px;
     }
+
+    .latest-project {
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
 }
 
 /* Medium Devices */
